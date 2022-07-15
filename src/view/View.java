@@ -35,6 +35,7 @@ public class View {
 			panel = GetData.getActiveSession();
 			myFrame.getContentPane().add(panel);
 		} else {
+			System.out.println("Has passed!");
 			panel = new Appearance_Equations();
 			myFrame.getContentPane().add(panel);
 		}
